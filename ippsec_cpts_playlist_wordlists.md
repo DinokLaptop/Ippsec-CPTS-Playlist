@@ -13,16 +13,13 @@
 
 |	Nice commands	|	What it does	|	Video URL	|	Note	|
 |	:---:	|	:---:	|	:---:	|	:---:	|
-|	wpscan --url <span style="color:lime"><b>url</b></span> --detection-mode aggressive --plugins-detection aggressive	|	Brute-force search of every plugin	|	https://youtu.be/Alx5KQWq7ZM	|	It is slow, but worth it	|
-|	ffuf -u <span style="color:lime"><b>url</b></span> -H "Host: FUZZ.<span style="color:lime"><b>domain.htb</b></span>" -w /usr/share/wordlists/SecLists/DNS/bitquark-subdomains-top100000.txt	|	Sub-Domain brute-force search	|	https://youtu.be/AJc53DUdt1M	|		|
-|	gobuster dir --url <span style="color:lime"><b>url</b></span> -w <span style="color:lime"><b>wordlist</b></span> -db	|	Appends common backup extentions to the wordlist entries	|	https://youtu.be/p8mIdm93mfw 	|	This video explains the backup appending: https://youtu.be/JpzREo7XLOY?t=1447 <br /> This is his fix: https://github.com/IppSec/gobuster	|
+|	`wpscan --url URL --detection-mode aggressive --plugins-detection aggressive`	|	Brute-force search of every plugin	|	https://youtu.be/Alx5KQWq7ZM	|	It is slow, but worth it	|
+|	`ffuf -u URL -H "Host: FUZZ.DOMAIN.HTB" -w /usr/share/wordlists/SecLists/DNS/bitquark-subdomains-top100000.txt`	|	Sub-Domain brute-force search	|	https://youtu.be/AJc53DUdt1M	|		|
+|	`gobuster dir --url URL -w WORDLIST -db`	|	Appends common backup extentions to the wordlist entries	|	https://youtu.be/p8mIdm93mfw 	|	This video explains the backup appending: https://youtu.be/JpzREo7XLOY?t=1447 <br /> This is his fix: https://github.com/IppSec/gobuster	|
 
 
 <!-- 
 Table template
 |		|		|		|		|
 |	:---:	|	:---:	|	:---:	|	:---:	|
-
-PLaceholder template
-<span style="color:lime"><b>text</b></span>
 -->
